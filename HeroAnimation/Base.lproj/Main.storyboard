@@ -30,7 +30,7 @@
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="foo"/>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="heroModifierString" value="duration(3)"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="heroModifierString" value="zPosition(1)"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sO4-tf-2pn">
@@ -70,15 +70,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ktU-01-wLd">
-                                <rect key="frame" x="137.5" y="283.5" width="100" height="100"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="187.5" y="183.5" width="100" height="100"/>
+                                <color key="backgroundColor" red="1" green="0.33333333333333331" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="VpQ-1T-yic"/>
                                     <constraint firstAttribute="width" constant="100" id="YuD-6z-Mt4"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="foo"/>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="heroModifierString" value="duration(3)"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="heroModifierString" value="duration(3) zPosition(1) arc"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lse-eP-UL9">
@@ -91,9 +91,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ktU-01-wLd" firstAttribute="centerY" secondItem="ulJ-C1-iEP" secondAttribute="centerY" id="QFe-rl-0Gj"/>
+                            <constraint firstItem="ktU-01-wLd" firstAttribute="centerY" secondItem="ulJ-C1-iEP" secondAttribute="centerY" constant="-100" id="QFe-rl-0Gj"/>
                             <constraint firstItem="lse-eP-UL9" firstAttribute="top" secondItem="vja-BQ-7Pq" secondAttribute="bottom" id="Uc3-a0-eeF"/>
-                            <constraint firstItem="ktU-01-wLd" firstAttribute="centerX" secondItem="ulJ-C1-iEP" secondAttribute="centerX" id="fIw-hL-RXm"/>
+                            <constraint firstItem="ktU-01-wLd" firstAttribute="centerX" secondItem="ulJ-C1-iEP" secondAttribute="centerX" constant="50" id="fIw-hL-RXm"/>
                             <constraint firstItem="lse-eP-UL9" firstAttribute="leading" secondItem="ulJ-C1-iEP" secondAttribute="leading" constant="15" id="oyS-ah-8xl"/>
                         </constraints>
                     </view>
