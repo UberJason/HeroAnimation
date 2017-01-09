@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FAB1E391E240607001B16F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB1E381E240607001B16F5 /* AppDelegate.swift */; };
+		1FAB1E3B1E240607001B16F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB1E3A1E240607001B16F5 /* ViewController.swift */; };
+		1FAB1E3E1E240607001B16F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAB1E3C1E240607001B16F5 /* Main.storyboard */; };
+		1FAB1E401E240607001B16F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAB1E3F1E240607001B16F5 /* Assets.xcassets */; };
+		1FAB1E431E240607001B16F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAB1E411E240607001B16F5 /* LaunchScreen.storyboard */; };
+		1FAB1E4E1E240607001B16F5 /* HeroAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB1E4D1E240607001B16F5 /* HeroAnimationUITests.swift */; };
+		749C42FF9AB6A044D21BDB0A /* Pods_HeroAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EFF47BDE043A64494ADCBA /* Pods_HeroAnimation.framework */; };
+		F199FECD04ACB579A9497527 /* Pods_HeroAnimationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A25488DAD463AC40525E531 /* Pods_HeroAnimationUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FAB1E4A1E240607001B16F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FAB1E2D1E240607001B16F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FAB1E341E240607001B16F5;
+			remoteInfo = HeroAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16707D6E0A8A5ECD0027EAB4 /* Pods-HeroAnimationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroAnimationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeroAnimationUITests/Pods-HeroAnimationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1FAB1E351E240607001B16F5 /* HeroAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAB1E381E240607001B16F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FAB1E3A1E240607001B16F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FAB1E3D1E240607001B16F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FAB1E3F1E240607001B16F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FAB1E421E240607001B16F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FAB1E441E240607001B16F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FAB1E491E240607001B16F5 /* HeroAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAB1E4D1E240607001B16F5 /* HeroAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroAnimationUITests.swift; sourceTree = "<group>"; };
+		1FAB1E4F1E240607001B16F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E60561DB51933BE8B290DFF /* Pods-HeroAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeroAnimation/Pods-HeroAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		3A25488DAD463AC40525E531 /* Pods_HeroAnimationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroAnimationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58EFF47BDE043A64494ADCBA /* Pods_HeroAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62550B39C4BCEABBE58444D /* Pods-HeroAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeroAnimation/Pods-HeroAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		AD3442F1855981A75677D48F /* Pods-HeroAnimationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroAnimationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeroAnimationUITests/Pods-HeroAnimationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FAB1E321E240607001B16F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749C42FF9AB6A044D21BDB0A /* Pods_HeroAnimation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAB1E461E240607001B16F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F199FECD04ACB579A9497527 /* Pods_HeroAnimationUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FAB1E2C1E240607001B16F5 = {
+			isa = PBXGroup;
+			children = (
+				1FAB1E371E240607001B16F5 /* HeroAnimation */,
+				1FAB1E4C1E240607001B16F5 /* HeroAnimationUITests */,
+				1FAB1E361E240607001B16F5 /* Products */,
+				565A957015B8F525998E0776 /* Pods */,
+				4CBFAFDB8F61973C7681D8C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1FAB1E361E240607001B16F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FAB1E351E240607001B16F5 /* HeroAnimation.app */,
+				1FAB1E491E240607001B16F5 /* HeroAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FAB1E371E240607001B16F5 /* HeroAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				1FAB1E381E240607001B16F5 /* AppDelegate.swift */,
+				1FAB1E3A1E240607001B16F5 /* ViewController.swift */,
+				1FAB1E3C1E240607001B16F5 /* Main.storyboard */,
+				1FAB1E3F1E240607001B16F5 /* Assets.xcassets */,
+				1FAB1E411E240607001B16F5 /* LaunchScreen.storyboard */,
+				1FAB1E441E240607001B16F5 /* Info.plist */,
+			);
+			path = HeroAnimation;
+			sourceTree = "<group>";
+		};
+		1FAB1E4C1E240607001B16F5 /* HeroAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FAB1E4D1E240607001B16F5 /* HeroAnimationUITests.swift */,
+				1FAB1E4F1E240607001B16F5 /* Info.plist */,
+			);
+			path = HeroAnimationUITests;
+			sourceTree = "<group>";
+		};
+		4CBFAFDB8F61973C7681D8C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58EFF47BDE043A64494ADCBA /* Pods_HeroAnimation.framework */,
+				3A25488DAD463AC40525E531 /* Pods_HeroAnimationUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		565A957015B8F525998E0776 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E60561DB51933BE8B290DFF /* Pods-HeroAnimation.debug.xcconfig */,
+				A62550B39C4BCEABBE58444D /* Pods-HeroAnimation.release.xcconfig */,
+				AD3442F1855981A75677D48F /* Pods-HeroAnimationUITests.debug.xcconfig */,
+				16707D6E0A8A5ECD0027EAB4 /* Pods-HeroAnimationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FAB1E341E240607001B16F5 /* HeroAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FAB1E521E240607001B16F5 /* Build configuration list for PBXNativeTarget "HeroAnimation" */;
+			buildPhases = (
+				9EC03594F669A0459F5D6C2E /* [CP] Check Pods Manifest.lock */,
+				1FAB1E311E240607001B16F5 /* Sources */,
+				1FAB1E321E240607001B16F5 /* Frameworks */,
+				1FAB1E331E240607001B16F5 /* Resources */,
+				D96344FC7BB878103A32AFCD /* [CP] Embed Pods Frameworks */,
+				704C0284785F410713AAA67D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeroAnimation;
+			productName = HeroAnimation;
+			productReference = 1FAB1E351E240607001B16F5 /* HeroAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FAB1E481E240607001B16F5 /* HeroAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FAB1E551E240607001B16F5 /* Build configuration list for PBXNativeTarget "HeroAnimationUITests" */;
+			buildPhases = (
+				DD6EB7C837F63D98BE381CE5 /* [CP] Check Pods Manifest.lock */,
+				1FAB1E451E240607001B16F5 /* Sources */,
+				1FAB1E461E240607001B16F5 /* Frameworks */,
+				1FAB1E471E240607001B16F5 /* Resources */,
+				195A997F22FB0600FBD5DF13 /* [CP] Embed Pods Frameworks */,
+				533BD619E3BF86324B43867F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FAB1E4B1E240607001B16F5 /* PBXTargetDependency */,
+			);
+			name = HeroAnimationUITests;
+			productName = HeroAnimationUITests;
+			productReference = 1FAB1E491E240607001B16F5 /* HeroAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FAB1E2D1E240607001B16F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Capital One Labs";
+				TargetAttributes = {
+					1FAB1E341E240607001B16F5 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = NR7RF5923T;
+						ProvisioningStyle = Automatic;
+					};
+					1FAB1E481E240607001B16F5 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = NR7RF5923T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1FAB1E341E240607001B16F5;
+					};
+				};
+			};
+			buildConfigurationList = 1FAB1E301E240607001B16F5 /* Build configuration list for PBXProject "HeroAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FAB1E2C1E240607001B16F5;
+			productRefGroup = 1FAB1E361E240607001B16F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FAB1E341E240607001B16F5 /* HeroAnimation */,
+				1FAB1E481E240607001B16F5 /* HeroAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FAB1E331E240607001B16F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAB1E431E240607001B16F5 /* LaunchScreen.storyboard in Resources */,
+				1FAB1E401E240607001B16F5 /* Assets.xcassets in Resources */,
+				1FAB1E3E1E240607001B16F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAB1E471E240607001B16F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		195A997F22FB0600FBD5DF13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeroAnimationUITests/Pods-HeroAnimationUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		533BD619E3BF86324B43867F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeroAnimationUITests/Pods-HeroAnimationUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		704C0284785F410713AAA67D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeroAnimation/Pods-HeroAnimation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EC03594F669A0459F5D6C2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D96344FC7BB878103A32AFCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeroAnimation/Pods-HeroAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD6EB7C837F63D98BE381CE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FAB1E311E240607001B16F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAB1E3B1E240607001B16F5 /* ViewController.swift in Sources */,
+				1FAB1E391E240607001B16F5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAB1E451E240607001B16F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAB1E4E1E240607001B16F5 /* HeroAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FAB1E4B1E240607001B16F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FAB1E341E240607001B16F5 /* HeroAnimation */;
+			targetProxy = 1FAB1E4A1E240607001B16F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FAB1E3C1E240607001B16F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FAB1E3D1E240607001B16F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FAB1E411E240607001B16F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FAB1E421E240607001B16F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FAB1E501E240607001B16F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FAB1E511E240607001B16F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FAB1E531E240607001B16F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E60561DB51933BE8B290DFF /* Pods-HeroAnimation.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NR7RF5923T;
+				INFOPLIST_FILE = HeroAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.capitalonelabs.HeroAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1FAB1E541E240607001B16F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62550B39C4BCEABBE58444D /* Pods-HeroAnimation.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NR7RF5923T;
+				INFOPLIST_FILE = HeroAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.capitalonelabs.HeroAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1FAB1E561E240607001B16F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD3442F1855981A75677D48F /* Pods-HeroAnimationUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = NR7RF5923T;
+				INFOPLIST_FILE = HeroAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.capitalonelabs.HeroAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HeroAnimation;
+			};
+			name = Debug;
+		};
+		1FAB1E571E240607001B16F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16707D6E0A8A5ECD0027EAB4 /* Pods-HeroAnimationUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = NR7RF5923T;
+				INFOPLIST_FILE = HeroAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.capitalonelabs.HeroAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HeroAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FAB1E301E240607001B16F5 /* Build configuration list for PBXProject "HeroAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAB1E501E240607001B16F5 /* Debug */,
+				1FAB1E511E240607001B16F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FAB1E521E240607001B16F5 /* Build configuration list for PBXNativeTarget "HeroAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAB1E531E240607001B16F5 /* Debug */,
+				1FAB1E541E240607001B16F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FAB1E551E240607001B16F5 /* Build configuration list for PBXNativeTarget "HeroAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAB1E561E240607001B16F5 /* Debug */,
+				1FAB1E571E240607001B16F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FAB1E2D1E240607001B16F5 /* Project object */;
+}
